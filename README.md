@@ -1,7 +1,7 @@
 # Event-Ticket-Entry-
 Using logistic regression to predict if entry into an event will be granted, explores PCA and K means clustering 
 
-1) Data Exploration and Visualization
+## Data Exploration and Visualization
 <img width="847" alt="Screenshot 2024-06-19 at 11 25 28 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/7ea6d7d7-f6bc-49c0-b26b-f26e18eab56a">
 
 Summary Statistics: 
@@ -70,11 +70,14 @@ We can see that using lasso regression results in models of higher accuracy for 
 -using age and price columns 
 
 We will choose to make 4 clusters based on the elbow method 
+
 <img width="652" alt="Screenshot 2024-06-19 at 11 35 11 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/4c976194-226e-4765-85ed-060ad49c5830">
 
 Using k-means makes cluster by fitting a mixture model. We need to determine how many clusters to use to seperate our data. Using the elbow method we choose K=4 as the optimal number of clusters. 4 clusters will minimize the sum of squared distances between every point and the centroid of the clusters becasue it is where we see the "elbow" in our graph. It is important to scale the data so that dimensions have equal influence on the cluster assignments. There is no concrete method to determine the optimal K-value, but the elbow method is widly used, but ambiguous and not always reliable.
 
 Number of people assigned to each cluster: 
+
 <img width="100" alt="Screenshot 2024-06-19 at 11 35 57 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/c1542e00-602c-43ef-ad64-67be5297f1bf">
+
 
 <img width="628" alt="Screenshot 2024-06-19 at 11 36 35 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/ac8192d6-fcf7-4246-841b-715d1723fbc6">
