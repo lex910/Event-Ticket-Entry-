@@ -13,7 +13,9 @@ Identifying null values for data cleaning:
 <img width="366" alt="Screenshot 2024-06-19 at 11 26 15 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/3a661b6d-ed42-43de-a254-0dbfb90bfd8d">
 
 Checking for multicollinearity: 
+
 <img width="617" alt="Screenshot 2024-06-19 at 11 26 57 AM" src="https://github.com/lex910/Event-Ticket-Entry-/assets/101606445/e499782b-d453-4d93-b3f5-9d08a6207679">
+
 We can see that none of the variables are highly correlated with eachother so we do not have to worry about any problems with perfect multicollinarity. I will now create histograms to visualize the distribution of all numeric variables.
 
 
